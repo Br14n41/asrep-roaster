@@ -7,10 +7,10 @@ The `asrep-roaster.sh` script is a tool used for roasting AS-REP hashes in Activ
 The script leverages the Impacket suite to extract AS-REP hashes from Active Directory and then cracks them using Hashcat. It automates this process to retrieve plaintext passwords from AS-REP hashes.
 
 ## Features
-
-- Feature 1: Automated extraction of AS-REP hashes from Active Directory.
-- Feature 2: Integration with password cracking tools for cracking AS-REP hashes.
-- Feature 3: Detailed reporting and logging of cracked passwords.
+```
+- Automated extraction of AS-REP hashes from Active Directory.
+- Integrated hash cracking with Hashcat.
+```
 
 ## Prerequisites
 
