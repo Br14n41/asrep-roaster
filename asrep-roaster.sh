@@ -3,7 +3,7 @@
 # Compile your usersfile and begin.
 # Developed using Impacket Version 0.11.0
 # Usage: ./asrep-roaster.sh <domain> <dc> <usersfile>
-# Example: ./asrep-roaster.sh megacorp.local 10.10.10.10 /usr/share/wordlists/users.txt /home/adversary/target/asrep-roaster.txt
+# Example: ./asrep-roaster.sh megacorp.local 10.10.10.10 /home/kali/users.txt
 
 # Let's define the variables
 
@@ -16,7 +16,7 @@ usersfile=$3
 if [ -z "$domain" ] || [ -z "$dc" ] || [ -z "$usersfile" ]; then
     echo "Please review usage guide and try again."
     echo "Usage: ./asrep-roaster.sh <domain> <dc> <usersfile>"
-    echo "Example: ./asrep-roaster.sh example.com 10.10.10.1 /usr/share/wordlists/users.txt" 
+    echo "Example: ./asrep-roaster.sh example.com 10.10.10.1 /home/kali/users.txt" 
     echo "Exiting..."
     exit 1
 fi
