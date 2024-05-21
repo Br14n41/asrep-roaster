@@ -36,9 +36,9 @@ Example:
 
 ![image](https://github.com/Br14n41/asrep-roaster/assets/57382125/b98d4aa5-227f-484d-b219-e3f1f4c65758)
 
-## Found hashes but they didn't crack?
+## Uncracked hashes?
 
-Try running hashcat against the hashes using a different wordlist or rule set, like:
+Try running hashcat using a different wordlist or rule set, like:
 ```bash
 hashcat -m 18200 hashes.asreproast /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force --show
 ```
