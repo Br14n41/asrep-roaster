@@ -27,6 +27,10 @@ Give permission to execute.
 chmod +x asrep-roaster.sh
 ```
 
+## Example Output
+
+![image](https://github.com/Br14n41/asrep-roaster/assets/57382125/b98d4aa5-227f-484d-b219-e3f1f4c65758)
+
 Example:
 ```bash
 ./asrep-roaster.sh example.com 10.10.10.1 /usr/share/wordlists/usernames.txt
