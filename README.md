@@ -14,8 +14,11 @@ The script leverages the Impacket suite to extract AS-REP hashes from Active Dir
 ## Prerequisites
 
 - Impacket v0.11.0
-- Hashcat
-- You will need to know the domain and have a list of usernames to run against the target AD environment. Enumerate as much as you can in other parts of the network if necessary (HTTP, FTP, SMB, nlockmgr, etc.)
+- JtR/Hashcat
+- Target domain
+- A list of the most likely usernames that could be found in the target AD environment
+
+In our use case the usernames were enumerated in other parts of the network from different services (LDAP, HTTP, FTP, SMB, nlockmgr, etc.). 
 
 ## Usage
 
